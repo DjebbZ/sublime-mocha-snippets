@@ -1,11 +1,10 @@
 <snippet>
 	<content><![CDATA[
-describe('${1:what?}', function () {
-  it('${2:should do what?}', function (${3:done}) {
-    ${4:// test!}
-  });
+describe('${1:what?}', function() {
+  ${0:it}
 });
 ]]></content>
-	<tabTrigger>desc</tabTrigger>
+	<tabTrigger>describe</tabTrigger>
 	<scope>source.js</scope>
+  <description>Mocha describe</description>
 </snippet>

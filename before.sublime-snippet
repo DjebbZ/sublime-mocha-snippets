@@ -1,9 +1,10 @@
 <snippet>
 	<content><![CDATA[
-before${1:Each}(function (${2:done}) {
+before${1:Each}(function(${2:done}) {
   ${3:// test!}
 });
 ]]></content>
-	<tabTrigger>befr</tabTrigger>
+	<tabTrigger>before</tabTrigger>
 	<scope>source.js</scope>
+  <description>Mocha before</description>
 </snippet>
